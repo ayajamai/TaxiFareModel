@@ -8,6 +8,7 @@ from TaxiFareModel.encoders import DistanceTransformer, TimeFeaturesEncoder
 from TaxiFareModel.utils import compute_rmse
 from TaxiFareModel.data import get_data, clean_data
 from sklearn.model_selection import train_test_split
+import pandas as pd
 
 
 
