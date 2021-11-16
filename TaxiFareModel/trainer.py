@@ -81,4 +81,4 @@ if __name__ == "__main__":
     # evaluate
     rmse_1 = train.evaluate(X_test, y_test)
 
-    print(rmse_1)
+    print(f'rmse = {rmse_1}')
